@@ -26,4 +26,26 @@ Ultimately our analysis and modeling process will culminate by answering the fol
 
 ## Data Science Process
 
+Across the scope of the project, we touch upon various components of our data science process, depending on the research question at hand. However, the overall project from start to finish adheres to the OSEMN framework:
 
+1. Obtain
+2. Scrub
+3. Explore
+4. Model
+5. Interpret
+
+<img src='Images/OSEMN_framework.png'>
+
+## Findings
+
+Below, we provide several key visualizations developed throughout the exploratory data analysis, as well as our findings from the multivariate linear modeling process with regards to the top factors contributing to increased housing value.
+
+**King County Home Sizes**
+<img src='Images/housing_size.png'>
+
+The above scatterplots display the correlation between different housing size factors and the selling price. Based on the twelve scatterplots, we notice that 'sqft_living15', 'sqft_living', and 'sqft_above' show the highest positive linear correlation with the selling price of the house. This indicates that larger living spaces reflect higher selling prices.
+
+**Zip Codes**
+<img src='images/zip_codes.png'>
+
+In the above barplot, several zip codes rise to the top with much higher average 
