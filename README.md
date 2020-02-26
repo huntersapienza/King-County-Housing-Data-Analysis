@@ -48,4 +48,15 @@ The above scatterplots display the correlation between different housing size fa
 **Zip Codes**
 <img src='Images/zip_codes.png'>
 
-In the above barplot, several zip codes rise to the top with much higher average 
+In the above barplot, several zip codes rise to the top with much higher average selling prices per home than the mean selling price for all homes in King County (appoximately 540 thousand dollars). Notable zip codes include those containing the following neighborhoods: Medina, Mercer Island, Madison Park, Montlake, and Capitol Hill. Some of these neighborhoods are shown in the images below.
+
+98039, 98040, 98004, and 98112 maintain the highest average selling prices for homes, with all four at a mean over 1 million dollars. 98039 is the zipcode for Medina, a neighborhood within Bellevue with residents such as Bill Gates and other extremely wealthy technology and business billionaires. 98004 is located just adjacent to 98039 and contains very high-end homes as well, at a lower mean than those in Medina, however, possibly due to its location slightly inland, as opposed to Medina's waterfront homes. 98040, located within Mercer Island, is well-known for extremely high-end housing, with easy access to Seattle jobs in the city center just across Lake Washington via the I-90 bridge. 98112, encompasing the Madison Park, Montlake, and north Capital Hill neighborhoods in Seattle, is well known for it's large mansions and extraordinarly high home prices. Kurt Kobain is a notable former resident of the neighborhood, with his memorial located at a park within 98112. The zipcode, located on the west side of Lake Washington contains a large number of waterfront homes and a very desirable location within the city with easy access to jobs and city attractions.
+
+**Medina**
+<img src='Images/medina.jpeg'>
+
+**Madison Park**
+<img src='Images/madison-park-neighborhood.jpg'>
+
+**Mercer Island**
+<img src='Images/mercer_island.jpg'>
