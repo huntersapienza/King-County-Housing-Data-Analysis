@@ -48,15 +48,29 @@ The above scatterplots display the correlation between different housing size fa
 **Zip Codes**
 <img src='Images/zip_codes.png'>
 
-In the above barplot, several zip codes rise to the top with much higher average selling prices per home than the mean selling price for all homes in King County (appoximately 540 thousand dollars). Notable zip codes include those containing the following neighborhoods: Medina, Mercer Island, Madison Park, Montlake, and Capitol Hill. Some of these neighborhoods are shown in the images below.
+In the above barplot, several zip codes rise to the top with much higher average selling prices per home than the mean selling price for all homes in King County (appoximately 540 thousand dollars). Notable zip codes include those containing the following neighborhoods: Medina, Mercer Island, Madison Park, Montlake, and Capitol Hill. Some of these neighborhoods are shown in the images below. As you can see, many of these are large waterfront homes!
 
 98039, 98040, 98004, and 98112 maintain the highest average selling prices for homes, with all four at a mean over 1 million dollars. 98039 is the zipcode for Medina, a neighborhood within Bellevue with residents such as Bill Gates and other extremely wealthy technology and business billionaires. 98004 is located just adjacent to 98039 and contains very high-end homes as well, at a lower mean than those in Medina, however, possibly due to its location slightly inland, as opposed to Medina's waterfront homes. 98040, located within Mercer Island, is well-known for extremely high-end housing, with easy access to Seattle jobs in the city center just across Lake Washington via the I-90 bridge. 98112, encompasing the Madison Park, Montlake, and north Capital Hill neighborhoods in Seattle, is well known for it's large mansions and extraordinarly high home prices. Kurt Kobain is a notable former resident of the neighborhood, with his memorial located at a park within 98112. The zipcode, located on the west side of Lake Washington contains a large number of waterfront homes and a very desirable location within the city with easy access to jobs and city attractions.
 
-**Medina**
+Medina
 <img src='Images/medina.jpeg' width="2000">
 
-**Madison Park**
+Madison Park
 <img src='Images/madison-park-neighborhood.jpg' width="2000">
 
-**Mercer Island**
+Mercer Island
 <img src='Images/mercer_island.jpg' width="2000">
+
+**Housing Grade**
+<img src='housing_grade.png'>
+
+According to the King County Department of Assessments, grades are provided to houses and residential units as a "classification by construction quality which refers to the types of materials used and the quality of workmanship. Buildings of better quality (higher grade) cost more to build per unit of measure and command higher value" (King County, 2019). As a measure of housing quality, these grades  reflect significant trends associated with average selling price of these houses, as the value increases exponentially with increasing grade levels.
+
+**Top Predictors of Housing Value**
+<img src='Images/top_predictors.png'>
+
+By examining a sorted list of feature coefficients from our final multivariate linear model, we identified which variables most affect the selling price of houses.
+
+Just like in our EDA, the zip codes from Medina, Mercer Island, and Madison Park appear at the top, indicating that location is key in the value and selling price of a house. At 8th on the list of top features, 'waterfront_1.0' boasts a fairly high impact on selling price with a correlation coefficient of 0.843. Houses on the water are prime real-estate anywhere, but especially within Seattle and all of King County, where waterfront neighborhoods hold some of the highest value. Additionally, features associated with King County housing grades 11-13 appear within the top 25 predictors while grades 4-7 can be found near the bottom of the list. This indicates that higher-grade houses are positively correlate with price, while those of lower grade tend to result in lower prices.
+
+Ultimately, as displayed in the illustration above, when predicting the selling price of a home, zipcode, waterfront location, and grade/condition rankings will provide the most useful indicators of value.
