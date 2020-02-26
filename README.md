@@ -34,7 +34,7 @@ Across the scope of the project, we touch upon various components of our data sc
 4. Model
 5. Interpret
 
-<img src='Images/OSEMN_framework.png'>
+<img src='Images/OSEMN _framework.png'>
 
 ## Findings
 
@@ -46,6 +46,6 @@ Below, we provide several key visualizations developed throughout the explorator
 The above scatterplots display the correlation between different housing size factors and the selling price. Based on the twelve scatterplots, we notice that 'sqft_living15', 'sqft_living', and 'sqft_above' show the highest positive linear correlation with the selling price of the house. This indicates that larger living spaces reflect higher selling prices.
 
 **Zip Codes**
-<img src='images/zip_codes.png'>
+<img src='Images/zip_codes.png'>
 
 In the above barplot, several zip codes rise to the top with much higher average 
