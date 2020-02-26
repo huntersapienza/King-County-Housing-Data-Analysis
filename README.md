@@ -4,7 +4,13 @@
 
 ## Introduction
 
-In the following project, we will examine and analyze data from housing sales in King County, Washington. We will employ the OSEMN (obtain, scrub, explore, model, and interpret) data science process to determine the effect of various features on housing sales prices via a multivariate linear model.
+In the following project, we examine and analyze data to determine the factors that most significantly contriubte to increased housing value. We will employ the OSEMN (obtain, scrub, explore, model, and interpret) data science process to determine the effect of various features on housing sales prices via a multivariate linear model.
+
+The housing data utilized throughout this project comes from King County, Washington (shown below). King County comprises the greater Seattle area, including the city of Seattle and many surrounding suburbs to the North, East, and South. It is the most populous county in the state, with over 2 million residents, and the 12 most populous in the country.
+
+<img src='Images/King_County_WA.png'>
+
+<img src='Images/King_County_Seattle.jpg'>
 
 ## Objectives
 Throughout this project we will aim to answer the following questions through exploratory analysis:
@@ -18,12 +24,6 @@ Throughout this project we will aim to answer the following questions through ex
 Ultimately our analysis and modeling process will culminate by answering the following essential question:
 #### **Which factors most significantly contribute to increased housing value?**
 
-## Final Project Summary
-
-You've made it all the way through the first module of this course - take a minute to celebrate your awesomeness! 
-
-<img src='awesome.gif'>
-
-All that remains in Module 1 is to put our newfound data science skills to use with a final project! You should expect this project to take between 40 and 50 hours of solid, focused effort. If you're done way quicker, go back and dig in deeper or try some of the optional "level up" suggestions. If you're worried that you're going to get to 30 hrs and still not even have the data imported, reach out to an instructor in slack ASAP to get some help!
-
 ## Data Science Process
+
+
